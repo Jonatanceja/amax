@@ -1,0 +1,23 @@
+title: Projects gallery
+icon: grid
+fields:
+  projects:
+    label: Projects
+    type: structure
+    fields:
+      image:
+        label: Image
+        type: files
+        max: 1
+        layout: cards
+      caption:
+        label: Caption
+        type: text
+      tags:
+        label: Categories
+        type: multiselect
+        options: query
+        query:
+          fetch: page.project_categories.split
+          text: "{{ item.value }}"
+          value: "{{ item.value }}"

@@ -1,0 +1,29 @@
+Title: About us
+
+----
+
+Cover: - file://htuoeud3n9guo8zu
+
+----
+
+Page-builder: [{"content":{"headline":"Why Us","text":"The key element for any **successful remodeling or home renovation project,** begins with a clear and complete understanding of your goals and expectations. We place ourselves in the client’s shoes and focus on the solutions instead of the obstacles. We ask the right questions and know that it is very important to listen to and to put the client first. Our knowledge and expertise will help us deliver on time and within the budget that was specified. Our experience in the construction industry will keep your project on track and running smoothly by avoiding, or minimizing, the obstacles that may develop during the project.","button_text":"","button_url":"","image":["file://htuoeud3n9guo8zu"]},"id":"25067369-c9e6-49d6-a73a-906d6e60753e","isHidden":false,"type":"zigzag"},{"content":{"values":[{"icon":["file://fodv5dpksptvknsm"],"headline":"Mission","description":"To transform residential, commercial, and industrial dreams into reality through expert craftsmanship and total turn-key solutions. At Amax Contractors, we bridge the gap between complex construction and personalized service, leveraging over 40 years of experience to deliver high-quality remodeling and maintenance that respects our clients' unique visions, budgets, and timelines."},{"icon":["file://iuwbuwy1dsllmpte"],"headline":"Vision","description":"To be the premier construction and renovation partner recognized for redefining the client experience through transparency, professionalism, and innovation. We strive to build not just structures, but lifelong relationships, setting the gold standard for quality workmanship and comprehensive facility solutions under one roof."}]},"id":"f860eadd-a03a-409b-8207-896e4cf50079","isHidden":false,"type":"values"},{"content":{"headline":"Our Values","text":"Amax is here to provide premium construction needs to our clients while providing top of the line customer service.\u2028 Many companies have different qualities, but here at Amax we are proud of our level of expertise and professionalism."},"id":"021b0172-98a7-47ed-a802-63aec85501fe","isHidden":false,"type":"paragraph"},{"content":{"headline":"Get a free quote","text":"We will ask you a few simple questions about your project. Later, we will set an appointment date so we can meet with you to discuss your project in detail.","button":[{"text":"Contact Us","link":"page://c0nt4ctP4g3Am4x"}]},"id":"b5e95047-3439-424a-bb30-9a6bb4f1cf94","isHidden":false,"type":"cta"}]
+
+----
+
+Metatitle: Trusted Remodeling Experts in Irwindale, CA
+
+----
+
+Metadescription: Learn about Amax Contractors Services, your partner for premium home renovations.
+
+----
+
+Ogimage: - file://8k0katgxjyqfqwoo
+
+----
+
+Hero-slider: 
+
+----
+
+Uuid: ajc8urshjosgwzzs

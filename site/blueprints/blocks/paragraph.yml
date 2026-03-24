@@ -1,0 +1,9 @@
+title: Plain text
+icon: text
+fields:
+  headline:
+    label: Headline
+    type: text
+  text:
+    label: Text
+    type: textarea

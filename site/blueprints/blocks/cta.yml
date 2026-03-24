@@ -1,0 +1,19 @@
+title:  Call to action
+icon: text
+fields:
+  headline:
+    label: Headline
+    type: text
+  text: 
+    label: Text
+    type: textarea
+  button:
+    label: Button
+    type: structure
+    fields:
+      text:
+        label: Text
+        type: text
+      link: 
+        label: Link
+        type: link

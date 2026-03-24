@@ -1,0 +1,45 @@
+@import 'tailwindcss';
+
+@plugin "@tailwindcss/typography";
+@source "../../site/templates";
+
+@variant dark (&:where(.dark, .dark *));
+
+[x-cloak] {
+    display: none !important;
+}
+
+@theme {
+    --font-sans: 'Chivo', sans-serif;
+}
+
+.bg-grid {
+    position: relative;
+    background-image:
+        linear-gradient(to right, rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 60px 60px;
+    background-attachment: fixed;
+}
+
+.bg-grid::after {
+    content: '';
+    position: fixed;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 200px;
+    background: radial-gradient(ellipse at center, #dc2626, transparent 70%);
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.dark .bg-grid {
+    background-image:
+        linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+}
+

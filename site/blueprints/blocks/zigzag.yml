@@ -1,0 +1,20 @@
+title: Zigzag content
+icon: text
+fields:
+  headline:
+    label: Headline
+    type: text
+  text:
+    label: Text
+    type: textarea
+  button_text:
+    label: Button Text
+    type: text
+  button_url:
+    label: Button URL
+    type: link
+  image:
+    label: Image
+    type: files
+    max: 1
+    layout: cards

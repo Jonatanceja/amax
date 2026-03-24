@@ -1,0 +1,14 @@
+title: Latest Projects
+icon: grid
+fields:
+  headline:
+    label: Headline
+    type: text
+    default: Our Latest Projects
+  button_text:
+    label: Button Text
+    type: text
+    default: View All Projects
+  button_url:
+    label: Button Link
+    type: link

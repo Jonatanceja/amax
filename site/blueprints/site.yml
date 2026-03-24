@@ -1,0 +1,39 @@
+title: Site
+tabs:
+
+  # Pages
+  pages:
+    label: Pages
+    icon: dashboard
+    sections:
+      pages:
+        headline: Pages
+        type: pages
+
+  # Contact
+  contact:
+    label: Contact
+    icon: email
+    fields:
+      address:
+        label: Address
+        type: textarea
+        buttons: false
+      phone:
+        label: Phone
+        type: tel
+        width: 1/2
+      email:
+        label: Email
+        type: email
+        width: 1/2
+      facebook:
+        label: Facebook URL
+        type: url
+        width: 1/2
+        placeholder: https://facebook.com/...
+      instagram:
+        label: Instagram URL
+        type: url
+        width: 1/2
+        placeholder: https://instagram.com/...

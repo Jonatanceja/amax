@@ -1,0 +1,76 @@
+title: Contact
+icon: email
+
+tabs:
+  content:
+    label: Content
+    icon: text
+    columns:
+      main:
+        width: 2/3
+        fields:
+          cover:
+            label: Cover
+            type: files
+            max: 1
+            layout: cards
+          headline:
+            label: Headline
+            type: text
+          map_embed:
+            label: Google Maps Embed URL
+            type: url
+            help: Paste the Google Maps embed src URL here.
+          services_list:
+            label: Services (for form dropdown)
+            type: tags
+            help: Add the service options that will appear in the contact form dropdown.
+
+      sidebar:
+        width: 1/3
+        sections:
+          files:
+            type: files
+            headline: Media library
+            layout: list
+
+  seo:
+    label: SEO
+    icon: search
+    columns:
+      main:
+        width: 2/3
+        fields:
+          metaTitle:
+            label: Meta Title
+            type: text
+            help: If left empty, the page title will be used.
+            icon: title
+
+          metaDescription:
+            label: Meta Description
+            type: textarea
+            buttons: false
+            maxlength: 160
+            help: Summarize the page content in less than 160 characters.
+
+          seoLine:
+            type: line
+
+          ogImage:
+            label: Social Media Image (Open Graph)
+            type: files
+            max: 1
+            layout: cards
+            help: Image that will appear when sharing the link on WhatsApp, Facebook or X.
+
+      sidebar:
+        width: 1/3
+        sections:
+          seo_tips:
+            type: info
+            headline: SEO Tips
+            text: |
+              1. Use **keywords** in the title.
+              2. The **description** should be engaging to generate clicks.
+              3. Don't forget to upload an **OG Image** of 1200x630px.

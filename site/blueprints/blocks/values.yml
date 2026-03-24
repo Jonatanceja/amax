@@ -1,0 +1,16 @@
+title: values
+icon: text
+fields:
+  values:
+    label: Values
+    type: structure
+    fields:
+      icon:
+        label: Icon
+        type: files
+      headline:
+        label: Headline
+        type: text
+      description:
+        label: Description
+        type: textarea

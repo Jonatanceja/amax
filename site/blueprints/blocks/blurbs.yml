@@ -1,0 +1,49 @@
+title: Information blurbs
+icon: text
+fields:
+  blurbs:
+    label: Blurbs
+    type: structure
+    fields:
+      display:
+        label: Display type
+        type: select
+        default: icon
+        options:
+          icon: Icon
+          image: Photo
+      icon:
+        label: Icon
+        type: files
+        max: 1
+        layout: cards
+        when:
+          display: icon
+      image:
+        label: Photo
+        type: files
+        max: 1
+        layout: cards
+        when:
+          display: image
+      headline:
+        label: Title
+        type: text
+      description:
+        label: Description
+        type: textarea
+      button_text:
+        label: Button Text
+        type: text
+        placeholder: View projects
+      tag:
+        label: Projects Tag
+        type: text
+        placeholder: kitchen
+        help: Exact tag name as it appears in the Projects page. Clicking the button will filter projects by this tag.
+  button_text:
+    label: Button Text
+    type: text
+  button_url:
+    label: Button URL
+    type: link

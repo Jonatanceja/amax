@@ -1,0 +1,13 @@
+title: Testimonials
+icon: text
+fields:
+  testimonials:
+    label: Testimonials
+    type: structure
+    fields:
+      name:
+        label: Name
+        type: text
+      quote:
+        label: Quote
+        type: textarea

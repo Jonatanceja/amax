@@ -1,0 +1,15 @@
+title: Metadata
+icon: search
+
+fields:
+  headline:
+    label: Title
+    type: textarea
+
+  description:
+    label: Description
+    type: textarea
+  
+  alt:
+    label: Alt
+    type: text

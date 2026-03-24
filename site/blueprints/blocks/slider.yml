@@ -1,0 +1,18 @@
+name: Slider
+icon: images
+fields:
+  before:
+    type: files
+    max: 1
+    label: Before image
+    layout: cards
+    width: 1/2
+    max: 1
+
+  after:
+    type: files
+    max: 1
+    label: After image
+    layout: cards
+    width: 1/2
+    max: 1
