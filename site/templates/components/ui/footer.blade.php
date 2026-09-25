@@ -35,5 +35,11 @@
                 @endif
             </div>
         </div>
+        <div class="mt-8 flex justify-end">
+            <a href="https://webxpress.website" target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-xs text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 transition duration-200">
+                <span>Designed and Developed by <strong class="font-semibold">Webxpress</strong></span>
+                <img src="/webxpress.svg" alt="" class="h-5 w-auto" width="19" height="20" loading="lazy" />
+            </a>
+        </div>
     </div>
 </footer>
